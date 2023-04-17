@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #aaa;
+}
+
+h1 {
+  background-color: rgb(213, 69, 69);
+  color: aliceblue;
+  padding: 20px;
+}
+
+.mainProduct {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 20px 20px ;
+  width: 120px;
+  height: 400px;
+  background-color: rgb(26, 20, 23);
+  color: aliceblue;
+}
+
+.card-img-top {
+  overflow: hidden;
+  height: 250px;
+}
+
+.flexNamePrice {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.flexButtonPro {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonProduct {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+#buttonAdd {
+  background-color: rgb(213, 69, 69);
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+#buttonInterest {
+  border-radius: 10px;
+}
+
+.footerProduct {
+  background-color: rgb(232, 223, 211); 
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 20px;  
+}
+
+h2 {
+  color: rgb(213, 69, 69);
+}
+
+.cartMoney {
+  margin: 20px 20px;
+  border-radius: 10px;
+  background-color: #ddd;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.totalCart {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.buttonFooter {
+  background-color: rgb(213, 69, 69);
+  color: aliceblue;
+  border-radius: 10px;
+}
+
+.textCart {
+  margin-left: 20px; 
+  margin-top: 10px;
+}
+
+.priceCart {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.totalSum {
+  color: rgb(213, 69, 69);
+}
